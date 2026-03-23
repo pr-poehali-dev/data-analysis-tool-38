@@ -19,18 +19,19 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="/images/mountain-landscape.jpg"
-          alt="Mountain landscape"
+          src="https://cdn.poehali.dev/projects/f6896d48-e205-49df-af17-035c1f19647f/files/aeb311c9-1b6f-4836-a2d7-8606414f3fd5.jpg"
+          alt="Reptiles in tropical landscape"
           className="w-full h-full object-cover"
         />
       </motion.div>
 
-      <div className="relative z-10 text-center text-white">
+      <div className="relative z-10 text-center text-white" style={{textShadow: '0 2px 20px rgba(0,0,0,0.7)'}}>
+        <p className="text-sm md:text-base uppercase tracking-widest mb-4 opacity-80">Биология · 7 класс · BBC Live</p>
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+          ПРЕСМЫКАЮЩИЕСЯ
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+          Многообразие рептилий: от древних крокодилов до ярких хамелеонов — властелины всех экосистем планеты
         </p>
       </div>
     </div>
